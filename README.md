@@ -1,2 +1,2 @@
-#Homeopathy API
+# Homeopathy API
 `npm install && npm start`
