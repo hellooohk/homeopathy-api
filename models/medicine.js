@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
-export const medicineSchema = new Schema({
+const symptomSchema = new Schema({
   name:String,
 });
+module.exports = mongoose.model("symptoms", symptomSchema);

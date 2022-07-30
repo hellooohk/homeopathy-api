@@ -1,7 +1,9 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const router = express.Router();
 
 const app = express();
+app.use(bodyParser.json());
 
 app.listen(process.env.PORT || 3000, function () {
   console.log(process.env.PORT || 3000);
